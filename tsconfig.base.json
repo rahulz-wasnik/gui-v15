@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@gui-v15/components": ["libs/components/src/index.ts"]
-    }
+    },
+    "noUnusedLocals": true
   },
   "exclude": ["node_modules", "tmp"]
 }
