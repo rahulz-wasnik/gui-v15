@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "affected:test": "npx nx affected --base=main --head=HEAD --target=test"
+    "affected:test": "npx nx affected --base=main --head=HEAD --target=test",
+    "affected:lint": "npx nx affected --base=main --head=HEAD --target=lint"
   },
   "private": true,
   "devDependencies": {
